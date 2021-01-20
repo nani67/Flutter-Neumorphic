@@ -44,7 +44,7 @@ typedef void NeumorphicButtonClickListener();
 ///
 @immutable
 class NeumorphicButton extends StatefulWidget {
-  static const double PRESSED_SCALE = 0.98;
+  static const double PRESSED_SCALE = 1.0;
   static const double UNPRESSED_SCALE = 1.0;
 
   final Widget child;
